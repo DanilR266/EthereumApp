@@ -274,7 +274,7 @@ class ViewController: UIViewController {
             labelLive.isHidden = false
             viewLive.isHidden = false
             self.b = self.eth.getEth()
-            labelEth.text = "1     = \(b)"
+            labelEth.text = "1     = \(b) $"
         }
         else {
             labelLive.isHidden = true
@@ -290,7 +290,7 @@ class ViewController: UIViewController {
                 buttonNow.setTitle(dateFormatter.string(from: Date(timeIntervalSince1970: date1970)), for: .normal)
             }
             self.b = self.eth.getEthDate(time: date1970 + 60)
-            labelEth.text = "1     = \(b)"
+            labelEth.text = "1     = \(b) $"
         }
     }
     
