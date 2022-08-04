@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E32675F2898DE3C00CAE4AD /* StructRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32675E2898DE3C00CAE4AD /* StructRequest.swift */; };
+		7E326761289901AA00CAE4AD /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E326760289901AA00CAE4AD /* Request.swift */; };
+		7E7C3E71289527B300EA7AFC /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C3E70289527B300EA7AFC /* BottomSheet.swift */; };
+		7E7C3E732895628B00EA7AFC /* GetTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C3E722895628B00EA7AFC /* GetTime.swift */; };
+		7E7C3E7528959FD600EA7AFC /* ButtonsLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C3E7428959FD600EA7AFC /* ButtonsLabels.swift */; };
+		7E94F61428963EB5001CB0EA /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E94F61328963EB5001CB0EA /* DateTime.swift */; };
 		7ED6BB9B2893DB2700CE7371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6BB9A2893DB2700CE7371 /* AppDelegate.swift */; };
 		7ED6BB9D2893DB2700CE7371 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6BB9C2893DB2700CE7371 /* SceneDelegate.swift */; };
 		7ED6BB9F2893DB2700CE7371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6BB9E2893DB2700CE7371 /* ViewController.swift */; };
-		7ED6BBA22893DB2700CE7371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6BBA02893DB2700CE7371 /* Main.storyboard */; };
 		7ED6BBA42893DB2800CE7371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6BBA32893DB2800CE7371 /* Assets.xcassets */; };
 		7ED6BBA72893DB2800CE7371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6BBA52893DB2800CE7371 /* LaunchScreen.storyboard */; };
+		7ED6BBB32894095F00CE7371 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6BBB22894095F00CE7371 /* Resources.swift */; };
+		7EDB394228979FDF00F97341 /* SetGetDateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB394128979FDF00F97341 /* SetGetDateTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E32675E2898DE3C00CAE4AD /* StructRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructRequest.swift; sourceTree = "<group>"; };
+		7E326760289901AA00CAE4AD /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		7E7C3E70289527B300EA7AFC /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		7E7C3E722895628B00EA7AFC /* GetTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTime.swift; sourceTree = "<group>"; };
+		7E7C3E7428959FD600EA7AFC /* ButtonsLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsLabels.swift; sourceTree = "<group>"; };
+		7E94F61328963EB5001CB0EA /* DateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
 		7ED6BB972893DB2700CE7371 /* EthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED6BB9A2893DB2700CE7371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ED6BB9C2893DB2700CE7371 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7ED6BB9E2893DB2700CE7371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7ED6BBA12893DB2700CE7371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ED6BBA32893DB2800CE7371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED6BBA62893DB2800CE7371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ED6BBA82893DB2800CE7371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED6BBB22894095F00CE7371 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		7EDB394128979FDF00F97341 /* SetGetDateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGetDateTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,38 @@
 		7ED6BB992893DB2700CE7371 /* EthApp */ = {
 			isa = PBXGroup;
 			children = (
+				7E7C3E722895628B00EA7AFC /* GetTime.swift */,
+				7E7C3E7428959FD600EA7AFC /* ButtonsLabels.swift */,
+				7E94F61328963EB5001CB0EA /* DateTime.swift */,
 				7ED6BB9A2893DB2700CE7371 /* AppDelegate.swift */,
 				7ED6BB9C2893DB2700CE7371 /* SceneDelegate.swift */,
 				7ED6BB9E2893DB2700CE7371 /* ViewController.swift */,
-				7ED6BBA02893DB2700CE7371 /* Main.storyboard */,
+				7E7C3E70289527B300EA7AFC /* BottomSheet.swift */,
+				7ED6BBAE2893DBBC00CE7371 /* SupportingFiles */,
+				7ED6BBB42894096900CE7371 /* Helpers */,
+				7E32675E2898DE3C00CAE4AD /* StructRequest.swift */,
+				7E326760289901AA00CAE4AD /* Request.swift */,
+			);
+			path = EthApp;
+			sourceTree = "<group>";
+		};
+		7ED6BBAE2893DBBC00CE7371 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				7ED6BBA32893DB2800CE7371 /* Assets.xcassets */,
 				7ED6BBA52893DB2800CE7371 /* LaunchScreen.storyboard */,
 				7ED6BBA82893DB2800CE7371 /* Info.plist */,
 			);
-			path = EthApp;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7ED6BBB42894096900CE7371 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB394128979FDF00F97341 /* SetGetDateTime.swift */,
+				7ED6BBB22894095F00CE7371 /* Resources.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +164,6 @@
 			files = (
 				7ED6BBA72893DB2800CE7371 /* LaunchScreen.storyboard in Resources */,
 				7ED6BBA42893DB2800CE7371 /* Assets.xcassets in Resources */,
-				7ED6BBA22893DB2700CE7371 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +174,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDB394228979FDF00F97341 /* SetGetDateTime.swift in Sources */,
 				7ED6BB9F2893DB2700CE7371 /* ViewController.swift in Sources */,
+				7E7C3E7528959FD600EA7AFC /* ButtonsLabels.swift in Sources */,
+				7E7C3E71289527B300EA7AFC /* BottomSheet.swift in Sources */,
+				7E326761289901AA00CAE4AD /* Request.swift in Sources */,
+				7ED6BBB32894095F00CE7371 /* Resources.swift in Sources */,
+				7E7C3E732895628B00EA7AFC /* GetTime.swift in Sources */,
+				7E32675F2898DE3C00CAE4AD /* StructRequest.swift in Sources */,
 				7ED6BB9B2893DB2700CE7371 /* AppDelegate.swift in Sources */,
+				7E94F61428963EB5001CB0EA /* DateTime.swift in Sources */,
 				7ED6BB9D2893DB2700CE7371 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +191,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7ED6BBA02893DB2700CE7371 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ED6BBA12893DB2700CE7371 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7ED6BBA52893DB2800CE7371 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,10 +327,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 328QJG8DC6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EthApp/Info.plist;
+				INFOPLIST_FILE = EthApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,10 +355,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 328QJG8DC6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EthApp/Info.plist;
+				INFOPLIST_FILE = EthApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
