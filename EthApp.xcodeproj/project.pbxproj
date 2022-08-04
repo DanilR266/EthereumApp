@@ -70,17 +70,13 @@
 		7ED6BB992893DB2700CE7371 /* EthApp */ = {
 			isa = PBXGroup;
 			children = (
-				7E7C3E722895628B00EA7AFC /* GetTime.swift */,
-				7E7C3E7428959FD600EA7AFC /* ButtonsLabels.swift */,
-				7E94F61328963EB5001CB0EA /* DateTime.swift */,
+				7EDBFC3E289C060200E57E8A /* Views */,
 				7ED6BB9A2893DB2700CE7371 /* AppDelegate.swift */,
 				7ED6BB9C2893DB2700CE7371 /* SceneDelegate.swift */,
-				7ED6BB9E2893DB2700CE7371 /* ViewController.swift */,
-				7E7C3E70289527B300EA7AFC /* BottomSheet.swift */,
+				7EDBFC3C289C059000E57E8A /* Controllers */,
 				7ED6BBAE2893DBBC00CE7371 /* SupportingFiles */,
 				7ED6BBB42894096900CE7371 /* Helpers */,
-				7E32675E2898DE3C00CAE4AD /* StructRequest.swift */,
-				7E326760289901AA00CAE4AD /* Request.swift */,
+				7EDBFC3D289C05AD00E57E8A /* Request */,
 			);
 			path = EthApp;
 			sourceTree = "<group>";
@@ -98,10 +94,38 @@
 		7ED6BBB42894096900CE7371 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				7E7C3E722895628B00EA7AFC /* GetTime.swift */,
 				7EDB394128979FDF00F97341 /* SetGetDateTime.swift */,
 				7ED6BBB22894095F00CE7371 /* Resources.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7EDBFC3C289C059000E57E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6BB9E2893DB2700CE7371 /* ViewController.swift */,
+				7E7C3E70289527B300EA7AFC /* BottomSheet.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7EDBFC3D289C05AD00E57E8A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				7E32675E2898DE3C00CAE4AD /* StructRequest.swift */,
+				7E326760289901AA00CAE4AD /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		7EDBFC3E289C060200E57E8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E7C3E7428959FD600EA7AFC /* ButtonsLabels.swift */,
+				7E94F61328963EB5001CB0EA /* DateTime.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
