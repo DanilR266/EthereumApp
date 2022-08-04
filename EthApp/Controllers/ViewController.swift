@@ -34,7 +34,6 @@ class ViewController: UIViewController {
     
     // MARK: override func
     override func viewDidLoad() {
-        print(screenSize.height)
         view.backgroundColor = .white
         super.viewDidLoad()
         if buttonNow.titleLabel!.text! != "Сейчас" {

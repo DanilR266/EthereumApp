@@ -48,7 +48,6 @@ class Sheet: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print(picker.date)
         animateShowDimmedView()
         animatePresentContainer()
         buttonsDT.buttonDate.addTarget(nil, action: #selector(buttonDate), for: .touchUpInside)
