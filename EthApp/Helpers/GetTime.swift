@@ -15,19 +15,19 @@ func getDay() -> String {
         return "Вс"
     }
     switch Calendar.current.weekdaySymbols[index - 1] {
-    case "понедельник":
+    case "понедельник", "Monday":
         return "Пн"
-    case "вторник":
+    case "вторник", "Tuesday":
         return "Вт"
-    case "среда":
+    case "среда", "Wednesday":
         return "Ср"
-    case "четверг":
+    case "четверг", "Thursday":
         return "Чт"
-    case "пятница":
+    case "пятница", "Friday":
         return "Пт"
-    case "суббота":
+    case "суббота", "Saturday":
         return "Сб"
-    case "воскресенье":
+    case "воскресенье", "Sunday":
         return "Вс"
     default:
         return ""
@@ -40,19 +40,19 @@ func getDayPrevious() -> String {
         return "Сб"
     }
     switch Calendar.current.weekdaySymbols[index - 2] {
-    case "понедельник":
+    case "понедельник", "Monday":
         return "Пн"
-    case "вторник":
+    case "вторник", "Tuesday":
         return "Вт"
-    case "среда":
+    case "среда", "Wednesday":
         return "Ср"
-    case "четверг":
+    case "четверг", "Thursday":
         return "Чт"
-    case "пятница":
+    case "пятница", "Friday":
         return "Пт"
-    case "суббота":
+    case "суббота", "Saturday":
         return "Сб"
-    case "воскресенье":
+    case "воскресенье", "Sunday":
         return "Вс"
     default:
         return ""
