@@ -34,13 +34,6 @@ struct WelcomeSec: Codable {
     }
 }
 
-// DataClass.swift
-
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let dataClass = try? newJSONDecoder().decode(DataClass.self, from: jsonData)
-
 // MARK: - DataClass
 struct DataClass: Codable {
     let aggregated: Bool?
@@ -54,13 +47,6 @@ struct DataClass: Codable {
         case data = "Data"
     }
 }
-
-// Datum.swift
-
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let datum = try? newJSONDecoder().decode(Datum.self, from: jsonData)
 
 
 // MARK: - Datum
@@ -76,13 +62,6 @@ struct Datum: Codable {
         case volumefrom, volumeto, close, conversionType, conversionSymbol
     }
 }
-
-// RateLimit.swift
-
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let rateLimit = try? newJSONDecoder().decode(RateLimit.self, from: jsonData)
 
 
 // MARK: - RateLimit

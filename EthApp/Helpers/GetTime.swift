@@ -10,7 +10,7 @@ import Foundation
 
 
 func getDay() -> String {
-    let index = Calendar.current.component(.weekday, from: Date()) // this returns an Int
+    let index = Calendar.current.component(.weekday, from: Date())
     if index == 1 {
         return "Вс"
     }
@@ -35,7 +35,7 @@ func getDay() -> String {
 }
 
 func getDayPrevious() -> String {
-    let index = Calendar.current.component(.weekday, from: Date()) // this returns an Int
+    let index = Calendar.current.component(.weekday, from: Date())
     if index == 1 {
         return "Сб"
     }

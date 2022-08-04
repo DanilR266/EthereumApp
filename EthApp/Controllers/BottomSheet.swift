@@ -187,6 +187,8 @@ class Sheet: UIViewController {
     @objc func handleCloseAction() {
         picker.removeFromSuperview()
         pickerTime.removeFromSuperview()
+        self.labelReady.isHidden = false
+        self.labelDelete.isHidden = true
         animateDismissView()
     }
     
@@ -260,10 +262,8 @@ class Sheet: UIViewController {
         picker.preferredDatePickerStyle = .inline
         picker.backgroundColor = .white
         picker.datePickerMode = .date
-//        picker.frame.size.width = containerView.frame.size.width
         picker.center = containerView.center
         containerView.addSubview(picker)
-//        picker.setDate(Date(), animated: true)
         picker.translatesAutoresizingMaskIntoConstraints = false
         picker.bottomAnchor.constraint(equalTo: containerView.bottomAnchor).isActive = true
         picker.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true

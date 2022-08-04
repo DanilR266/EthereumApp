@@ -181,45 +181,5 @@ class FieldsStyle {
         ])
         return button
     }()
-    
-    
-    //MARK: @objc func
-//    @objc public func HoldDownSec()
-//        {
-//            buttonToday.backgroundColor = UIColor(red: 0, green: 0.314, blue: 0.812, alpha: 1)
-//        }
-//    @objc public func holdReleaseSec()
-//        {
-//            buttonToday.backgroundColor = UIColor(red: 0, green: 0.314, blue: 0.812, alpha: 0.5)
-//        }
-//
-//    @objc func HoldDownYesterday()
-//        {
-//            buttonYesterday.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.1)
-//        }
-//    @objc func holdReleaseYesterday()
-//        {
-//            buttonYesterday.backgroundColor = UIColor(red: 255, green: 255, blue: 255, alpha: 0.5)
-//        }
-//
-//    @objc func HoldDownLastWeek()
-//        {
-//            buttonLastWeek.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.1)
-//        }
-//    @objc func holdReleaseLastWeek()
-//        {
-//            buttonLastWeek.backgroundColor = UIColor(red: 255, green: 255, blue: 255, alpha: 0.5)
-//        }
-//
-//    @objc func HoldDownNow()
-//        {
-//            buttonNow.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.1)
-//        }
-//    @objc func holdReleaseNow()
-//        {
-//            buttonNow.backgroundColor = UIColor(red: 255, green: 255, blue: 255, alpha: 0.5)
-//        }
-//
-//
 
 }

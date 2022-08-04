@@ -23,8 +23,4 @@ class DateAndTime {
         }
         return "Сейчас"
     }
-    
-    func getTime1970() {
-        
-    }
 }
