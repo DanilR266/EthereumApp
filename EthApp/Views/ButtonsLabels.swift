@@ -146,8 +146,6 @@ class FieldsStyle {
         button.addSubview(labelLastWeek)
         button.addSubview(labelShortLastWeek)
         button.addSubview(iconViewLastWeek)
-        button.addTarget(nil, action: #selector(HoldDownSec), for: .touchDown)
-        button.addTarget(nil, action: #selector(holdReleaseSec), for: .touchUpInside)
         labelLastWeek.translatesAutoresizingMaskIntoConstraints = false
         labelShortLastWeek.translatesAutoresizingMaskIntoConstraints = false
         iconViewLastWeek.translatesAutoresizingMaskIntoConstraints = false
